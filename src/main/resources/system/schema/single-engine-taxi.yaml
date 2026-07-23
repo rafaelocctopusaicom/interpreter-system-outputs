@@ -1,0 +1,163 @@
+- name: customer
+  type: string
+  nullable: false
+- name: aircraftPlatform
+  type: string
+  nullable: true
+- name: serialNumber
+  type: double
+  nullable: true
+- name: tailNumber
+  type: string
+  nullable: true
+- name: flightNumber
+  type: string
+  nullable: true
+- name: timestamp
+  type: long
+  nullable: true
+- name: filename
+  type: string
+  nullable: false
+- name: fileRate
+  type: string
+  nullable: true
+- name: sysId
+  type: string
+  nullable: true
+- name: tcrfId
+  type: string
+  nullable: true
+
+- name: type
+  type: string
+  nullable: false
+
+- name: profile
+  type: string
+  nullable: false
+
+- name: eventGrossWeightLb
+  type: double
+  nullable: false
+
+- name: s1AvgGroundSpeed
+  type: double
+  nullable: false
+
+- name: s2AvgGroundSpeed
+  type: double
+  nullable: false
+
+- name: totalAvgGroundSpeed
+  type: double
+  nullable: false
+
+- name: s1Time
+  type: double
+  nullable: false
+
+- name: s2Time
+  type: double
+  nullable: false
+
+- name: totalTime
+  type: double
+  nullable: false
+
+- name: s1DistanceNm
+  type: double
+  nullable: false
+
+- name: s2DistanceNm
+  type: double
+  nullable: false
+
+- name: totalDistanceNm
+  type: double
+  nullable: false
+
+- name: s1StoppedPct
+  type: double
+  nullable: true
+
+- name: s2StoppedPct
+  type: double
+  nullable: true
+
+- name: totalStoppedPct
+  type: double
+  nullable: true
+
+- name: s1FuelFlowEngine1Lb
+  type: double
+  nullable: false
+
+- name: s1FuelFlowEngine2Lb
+  type: double
+  nullable: false
+
+- name: s1TotalFuelLb
+  type: double
+  nullable: false
+
+- name: s2FuelFlowEngine1Lb
+  type: double
+  nullable: false
+
+- name: s2FuelFlowEngine2Lb
+  type: double
+  nullable: false
+
+- name: s2TotalFuelLb
+  type: double
+  nullable: false
+
+- name: totalFuelEngine1Lb
+  type: double
+  nullable: false
+
+- name: totalFuelEngine2Lb
+  type: double
+  nullable: false
+
+- name: totalFuelLb
+  type: double
+  nullable: false
+
+- name: lbNm
+  type: double
+  nullable: false
+
+- name: lbMin
+  type: double
+  nullable: false
+
+- name: outLatitude
+  type: double
+  nullable: true
+- name: outLongitude
+  type: double
+  nullable: true
+
+- name: offLatitude
+  type: double
+  nullable: true
+- name: offLongitude
+  type: double
+  nullable: true
+
+- name: onLatitude
+  type: double
+  nullable: true
+- name: onLongitude
+  type: double
+  nullable: true
+
+- name: inLatitude
+  type: double
+  nullable: true
+- name: inLongitude
+  type: double
+  nullable: true
+
