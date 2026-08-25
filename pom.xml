@@ -6,7 +6,7 @@
 
     <groupId>br.com.embraer.ahead</groupId>
     <artifactId>interpreter-system-outputs</artifactId>
-    <version>3.1.2</version>
+    <version>3.2.0</version>
     <packaging>jar</packaging>
 
     <name>interpreter-system-outputs</name>
@@ -17,7 +17,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
 
-        <interpreter-base.version>3.1.2</interpreter-base.version>
+        <interpreter-base.version>3.2.0</interpreter-base.version>
         <scala.version>2.12.18</scala.version>
         <spark.version>3.5.4</spark.version>
         <jackson.version>2.15.2</jackson.version>
